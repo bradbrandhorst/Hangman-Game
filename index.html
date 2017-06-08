@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twin Peaks Hangman Game</title>
+	   
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">   
+
+</head>
+	<body>
+		<div class="panel panel-default" style="max-width:900px; margin-left:auto; margin-right:auto; margin-top:100px;">
+  			<div>
+			    <h1><strong>TWIN PEAKS HANGMAN</strong></h1>
+      				<div class="panel-body text-left">
+						<!--<Container=left justified><-->
+						<div>
+							<p>Guesses remaining: <span id="guesses-left"></span></p>
+							<p>Incorrect Letters: <span id="wrong-guesses"></span></p>
+							<p>Player Wins: <span id="win-counter"></span></p>
+							<p>Player Losses: <span id="loss-counter"></span></p>
+								<h3 id="word-blank"></h3>
+						</div>	
+  					</div>
+			</div>
+		</div>
+	<div class="floor" width=auto></div>
+			<script src="./assets/javascript/game.js"></script>
+	</body>
+</html>
